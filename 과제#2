@@ -8,7 +8,7 @@ typedef struct Books {
 	char press[20];
 	int page;
 	int price;
-	char loaned;
+	int loaned;
 } Books;
 
 int main() {
